@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"a= "<<endl;
+    cin>>a;
+    cout<<"b= "<<endl;
+    cin>>b;
+
+    cout<<"Following are the types of arithmetic operator in C++"<<endl;
+    cout<<"The value of a+b is "<<a+b<<endl;
+    cout<<"The value of a-b is "<<a-b<<endl;
+    cout<<"The value of a*b is "<<a*b<<endl;
+    cout<<"The value of a/b is "<<a/b<<endl;
+    cout<<"The value of a%b is "<<a%b<<endl;
+    cout<<"The value of a++ is "<<a++<<endl;
+    cout<<"The value of a-- is "<<a--<<endl;
+    cout<<"The value of ++a is "<<++a<<endl;
+    cout<<"The value of --a is "<<--a<<endl;
+
+    cout<<"Following are the types of comparison operator in C++"<<endl;
+    cout<<"The value of a==b is "<<(a==b)<<endl;
+    cout<<"The value of a!=b is "<<(a!=b)<<endl;
+    cout<<"The value of a>=b is "<<(a>=b)<<endl;
+    cout<<"The value of a<=b is "<<(a<=b)<<endl;
+    cout<<"The value of a>b is "<<(a>b)<<endl;
+    cout<<"The value of a<b is "<<(a<b)<<endl;
+
+    cout<<"Following are the logical operator in C++"<<endl;
+    cout<<"The value of this logical And operator ((a==b)&&(a<b)) is: "<<((a==b)&&(a<b))<<endl;
+    cout<<"The value of thislogical Or operator ((a==b)||(a<b)) is: "<<((a==b)||(a<b))<<endl;
+    cout<<"The value of this logical Not operator (!(a==b)) is: "<<(!(a==b))<<endl;
+
+
+    return 0;
+}
